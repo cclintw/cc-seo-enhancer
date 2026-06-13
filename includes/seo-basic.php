@@ -4,6 +4,12 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+//remove google search display blogname(site title)
+add_filter('document_title_parts', function ($title) {
+    unset($title['site']);
+    return $title;
+}, 20);
+
 function cclin_get_default_og_image($seed = '') {
     $base_dir = plugin_dir_path(__DIR__) . 'assets/image/';
     $base_url = plugin_dir_url(__DIR__) . 'assets/image/';
