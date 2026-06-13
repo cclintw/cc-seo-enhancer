@@ -303,6 +303,6 @@ add_action('wp_head', function () {
     }
 
     // --- 4. Canonical URL ---
-    echo '<link rel="canonical" href="' . esc_url($url) . '" />' . "\n";
+    //echo '<link rel="canonical" href="' . esc_url($url) . '" />' . "\n";
 
 }, 20);
