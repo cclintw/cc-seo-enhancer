@@ -1,0 +1,369 @@
+# Copyright (C) 2026 Chance Lin
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CC SEO Enhancer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cc-seo-enhancer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-13T10:51:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: cc-seo-enhancer\n"
+
+#. Plugin Name of the plugin
+#: cc-seo-enhancer.php
+msgid "CC SEO Enhancer"
+msgstr ""
+
+#. Description of the plugin
+#: cc-seo-enhancer.php
+msgid "Advanced SEO helpers for meta tags, Open Graph, schema.org, robots, webmaster verification, and tracking integrations."
+msgstr ""
+
+#. Author of the plugin
+#: cc-seo-enhancer.php
+msgid "Chance Lin"
+msgstr ""
+
+#. Author URI of the plugin
+#: cc-seo-enhancer.php
+msgid "https://cclin.cc"
+msgstr ""
+
+#: cc-seo-enhancer.php:52
+msgid "Select or upload image"
+msgstr ""
+
+#: cc-seo-enhancer.php:53
+msgid "Use this image"
+msgstr ""
+
+#. translators: %s: Search query.
+#: includes/seo-basic.php:108
+#, php-format
+msgid "Search results: %s"
+msgstr ""
+
+#. translators: %s: Search query.
+#: includes/seo-basic.php:110
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#. translators: %s: Author display name.
+#: includes/seo-basic.php:117
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: includes/seo-basic.php:123
+msgid "Page not found"
+msgstr ""
+
+#: includes/seo-basic.php:124
+msgid "Sorry, the page you requested could not be found."
+msgstr ""
+
+#. translators: %d: Estimated reading time in minutes.
+#: includes/seo-basic.php:179
+#, php-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/seo-basic.php:180
+msgid "Author"
+msgstr ""
+
+#: includes/seo-basic.php:182
+msgid "Estimated reading time"
+msgstr ""
+
+#: includes/seo-cookie.php:19
+msgid "This website uses cookies and similar technologies to improve the experience and analyze site traffic."
+msgstr ""
+
+#: includes/seo-cookie.php:21
+msgid "Got it"
+msgstr ""
+
+#: includes/seo-schema.php:112
+#: includes/seo-schema.php:757
+msgid "Home"
+msgstr ""
+
+#. translators: %s: Search query.
+#: includes/seo-schema.php:210
+#, php-format
+msgid "Search: %s"
+msgstr ""
+
+#. translators: %s: Year.
+#: includes/seo-schema.php:223
+#: includes/seo-schema.php:230
+#: includes/seo-schema.php:247
+#, php-format
+msgid "%s year"
+msgstr ""
+
+#. translators: %s: Month number.
+#: includes/seo-schema.php:237
+#: includes/seo-schema.php:254
+#, php-format
+msgid "%s month"
+msgstr ""
+
+#. translators: %s: Day number.
+#: includes/seo-schema.php:261
+#, php-format
+msgid "%s day"
+msgstr ""
+
+#: includes/seo-schema.php:277
+msgid "404 not found"
+msgstr ""
+
+#. translators: %s: Author display name.
+#: includes/seo-schema.php:706
+#, php-format
+msgid "%s - Author page"
+msgstr ""
+
+#: includes/seo-social.php:12
+msgid "Social links"
+msgstr ""
+
+#: includes/seo-social.php:18
+msgid "https://facebook.com/username"
+msgstr ""
+
+#: includes/seo-social.php:25
+msgid "https://x.com/username"
+msgstr ""
+
+#: includes/seo-social.php:32
+msgid "https://linkedin.com/in/username"
+msgstr ""
+
+#: includes/settings.php:70
+msgid "CC SEO Enhancer Settings"
+msgstr ""
+
+#: includes/settings.php:77
+msgid "Enable cookie notice"
+msgstr ""
+
+#: includes/settings.php:83
+msgid "When enabled, a cookie notice bar appears at the bottom of the site. Tracking scripts are controlled by their own switches."
+msgstr ""
+
+#: includes/settings.php:88
+msgid "Google Tag Manager ID"
+msgstr ""
+
+#: includes/settings.php:90
+msgid "GTM-XXXXXXX"
+msgstr ""
+
+#: includes/settings.php:100
+msgid "Google Analytics GA4 ID"
+msgstr ""
+
+#: includes/settings.php:102
+msgid "G-XXXXXXXXXX"
+msgstr ""
+
+#: includes/settings.php:111
+msgid "Facebook Pixel ID"
+msgstr ""
+
+#: includes/settings.php:113
+msgid "123456789012345"
+msgstr ""
+
+#: includes/settings.php:123
+msgid "Google Site Verification"
+msgstr ""
+
+#: includes/settings.php:125
+msgid "Google verification token"
+msgstr ""
+
+#: includes/settings.php:131
+msgid "Bing verification code"
+msgstr ""
+
+#: includes/settings.php:133
+msgid "Bing verification token"
+msgstr ""
+
+#: includes/settings.php:134
+msgid "The msvalidate.01 content value. Example:"
+msgstr ""
+
+#: includes/settings.php:139
+msgid "Site settings"
+msgstr ""
+
+#: includes/settings.php:142
+msgid "Site name replacement"
+msgstr ""
+
+#: includes/settings.php:147
+msgid "Alternative site name"
+msgstr ""
+
+#: includes/settings.php:152
+msgid "Site representative type"
+msgstr ""
+
+#: includes/settings.php:165
+msgid "Organization"
+msgstr ""
+
+#: includes/settings.php:173
+msgid "Person"
+msgstr ""
+
+#: includes/settings.php:183
+msgid "Representative name:"
+msgstr ""
+
+#: includes/settings.php:184
+msgid "Organization or person name"
+msgstr ""
+
+#: includes/settings.php:186
+msgid "Representative alternate name:"
+msgstr ""
+
+#: includes/settings.php:191
+msgid "Alternate name"
+msgstr ""
+
+#: includes/settings.php:193
+msgid "Representative description:"
+msgstr ""
+
+#: includes/settings.php:194
+msgid "Short organization or person description"
+msgstr ""
+
+#: includes/settings.php:196
+msgid "URL:"
+msgstr ""
+
+#: includes/settings.php:206
+msgid "Personal avatar / organization logo:"
+msgstr ""
+
+#: includes/settings.php:211
+msgid "Select image"
+msgstr ""
+
+#: includes/settings.php:216
+msgid "Social links, one per line:"
+msgstr ""
+
+#: includes/settings.php:217
+msgid "https://facebook.com/yourpage"
+msgstr ""
+
+#: includes/settings.php:218
+#: includes/settings.php:240
+#: includes/settings.php:273
+msgid "Example:"
+msgstr ""
+
+#: includes/settings.php:220
+msgid "Email:"
+msgstr ""
+
+#: includes/settings.php:221
+msgid "contact@example.com"
+msgstr ""
+
+#: includes/settings.php:224
+msgid "Enable address information:"
+msgstr ""
+
+#: includes/settings.php:225
+msgid "When enabled, phone, country, region, city, and address fields are shown."
+msgstr ""
+
+#: includes/settings.php:237
+msgid "Phone:"
+msgstr ""
+
+#: includes/settings.php:239
+msgid "+886-2-12345678"
+msgstr ""
+
+#: includes/settings.php:242
+msgid "Country:"
+msgstr ""
+
+#: includes/settings.php:244
+msgid "TW"
+msgstr ""
+
+#: includes/settings.php:246
+msgid "Region:"
+msgstr ""
+
+#: includes/settings.php:248
+msgid "Taiwan"
+msgstr ""
+
+#: includes/settings.php:250
+msgid "City:"
+msgstr ""
+
+#: includes/settings.php:252
+msgid "Taipei"
+msgstr ""
+
+#: includes/settings.php:254
+msgid "Address:"
+msgstr ""
+
+#: includes/settings.php:256
+msgid "Street address"
+msgstr ""
+
+#: includes/settings.php:265
+msgid "Conversion tracking URL list"
+msgstr ""
+
+#: includes/settings.php:271
+msgid "When enabled, matching URL paths send GA4 events. Facebook Pixel conversion events are not sent from this list."
+msgstr ""
+
+#: includes/settings.php:272
+msgid ""
+"/checkout/success=purchase\n"
+"/contact/thanks=generate_lead"
+msgstr ""
+
+#: includes/settings.php:280
+msgid "robots.txt disallowed paths"
+msgstr ""
+
+#: includes/settings.php:282
+msgid ""
+"/private/\n"
+"/temp/"
+msgstr ""
+
+#: includes/settings.php:283
+msgid "Enter one path per line, for example"
+msgstr ""
+
+#: includes/settings.php:283
+msgid "or"
+msgstr ""
