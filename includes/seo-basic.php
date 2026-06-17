@@ -4,6 +4,15 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+add_filter('wp_robots', function ($robots) {
+    if (is_tag()) {
+        $robots['noindex'] = true;
+        $robots['follow'] = true;
+    }
+
+    return $robots;
+});
+
 //remove google search display blogname(site title)
 add_filter('document_title_parts', function ($title) {
     unset($title['site']);
@@ -140,7 +149,12 @@ add_action('wp_head', function () {
     global $post, $wp;
 
     $site_name = get_bloginfo('name');
-    $type = (is_home() || is_front_page()) ? 'website' : 'article';
+    $type = 'website';
+      if (is_singular('post')) {
+          $type = 'article';
+      } elseif (is_author()) {
+          $type = 'profile';
+      }
     $url = trailingslashit(home_url(add_query_arg([], $wp->request ?? '')));
     $title = get_bloginfo('name');
     $description = get_bloginfo('description');
@@ -253,11 +267,6 @@ add_action('wp_head', function () {
 
     // --- 1. Basic meta tags ---
     echo '<meta name="description" content="' . esc_attr($description) . '" />' . "\n";
-
-    if ( is_tag() ) {
-        echo '<meta name="robots" content="noindex,follow,max-image-preview:large" />' . "\n";
-    }
-
 
     echo '<meta property="og:locale" content="zh_TW" />' . "\n"; // Locale declaration.
     echo '<meta http-equiv="content-language" content="zh-TW" />' . "\n"; // Content language declaration.
